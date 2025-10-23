@@ -20,3 +20,6 @@ if zero != 0: # если нулей больше 0
     print(f'Нулей {zero}: {zero / len(random_numbers) * 100:f}%') # выводим кол-во
 else :
     print("Нулей: 0") # выводим что нулей 0
+
+print("Максимальное число:", max(random_numbers))
+print("Минимальное число:", min(random_numbers))
